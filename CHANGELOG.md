@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.9.2
+
+- Added "Claude (Anthropic-compatible)" provider preset for proxies that speak the Anthropic protocol: enter just an endpoint and API key — tier models default to `claude-opus-4-7` / `claude-sonnet-4-6` / `claude-haiku-4-5`
+- New CLI shortcut `zero provider set claude --base-url <url> --api-key <key>` for non-interactive setup of Anthropic-compatible endpoints
+
 ## 0.9.1
 
 - Fixed long-session reasoning loss: thinking content from earlier turns is now preserved across cache-miss boundaries (previously an internal latch discarded all but the most recent turn after ~1 hour idle)
