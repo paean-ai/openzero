@@ -1,5 +1,19 @@
 # Changelog
 
+## 0.11.1
+
+- Git branch name now shown in the prompt input context bar (bottom-right, next to context percentage)
+
+## 0.11.0
+
+- Rebranded "Bypass Permissions" to "YOLO mode"; `-y` CLI flag enters YOLO directly
+
+## 0.10.0
+
+- Zero brand differentiation: TUI spinner now uses Zero signature verbs, loading states tinted in brand teal, shortcut hints use brand anchor style, and byline/spinner rows use brand-mode separator
+- Input bar branded with Zero teal, now displays context window usage % and current session title
+- Unknown API subscriptions no longer labeled "Claude API" in user-visible chrome strings
+
 ## 0.9.2
 
 - Added "Claude (Anthropic-compatible)" provider preset for proxies that speak the Anthropic protocol: enter just an endpoint and API key — tier models default to `claude-opus-4-7` / `claude-sonnet-4-6` / `claude-haiku-4-5`
