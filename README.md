@@ -45,6 +45,16 @@ zero --help
 
 **Requirements:** Node.js 18 or newer. macOS, Linux, and Windows (WSL strongly recommended on Windows) are supported.
 
+### Also available as `tide`
+
+The same binary is published as [`deeptide`](https://www.npmjs.com/package/deeptide) under the **DeepTide** brand — our macOS-native AI coding app from the same team. `npm install -g deeptide` (or `bun add -g deeptide`) installs the same engine and exposes a `tide` command:
+
+```bash
+tide --version          # → 0.x.y (DeepTide CLI)
+```
+
+Same engine, different brand surface. The two products evolve independently; the shared interface (tool names, slash commands, hook env vars, model aliases) is documented in the [`tide-spec`](https://github.com/a8e-ai/zero-cli/blob/main/docs/tide-spec.md).
+
 ---
 
 ## Quick start
