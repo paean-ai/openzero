@@ -45,6 +45,10 @@ zero --help
 
 **Requirements:** Node.js 18 or newer. macOS, Linux, and Windows (WSL strongly recommended on Windows) are supported.
 
+### Guides
+
+- **Windows install + DeepSeek official API (Chinese, npm-only, non-developer friendly):** [`docs/windows-install-zero-cli-deepseek.md`](./docs/windows-install-zero-cli-deepseek.md) — Node.js LTS setup, opening a terminal, global install, and `zero provider set deepseek`.
+
 ### Also available as `tide`
 
 The same binary is published as [`deeptide`](https://www.npmjs.com/package/deeptide) under the **DeepTide** brand — our macOS-native AI coding app from the same team. `npm install -g deeptide` (or `bun add -g deeptide`) installs the same engine and exposes a `tide` command:
