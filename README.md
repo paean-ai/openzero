@@ -47,7 +47,8 @@ zero --help
 
 ### Guides
 
-- **Windows install + DeepSeek official API (Chinese, npm-only, non-developer friendly):** [`docs/windows-install-zero-cli-deepseek.md`](./docs/windows-install-zero-cli-deepseek.md) — Node.js LTS setup, opening a terminal, global install, and `zero provider set deepseek`.
+- **Windows install + DeepSeek official API (English, npm-only, non-developer friendly):** [`docs/windows-install-zero-cli-deepseek.md`](./docs/windows-install-zero-cli-deepseek.md) — Node.js LTS, opening a terminal, global install, and `zero provider set deepseek`.
+- **Same guide in Chinese (简体中文):** [`docs/windows-install-zero-cli-deepseek.zh.md`](./docs/windows-install-zero-cli-deepseek.zh.md)
 
 ### Also available as `tide`
 
